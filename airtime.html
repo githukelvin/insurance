@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BIMA | Success</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    sans: ['Graphik', 'sans-serif'],
+                    serif: ['Merriweather', 'serif'],
+                },
+                extend: {
+                    colors: {
+                        transparent: "transparent",
+                        primaryColor: "#497b12",
+                        primary2: "#7eb741",
+                        primary3: "#60802d",
+                        accentColor: "#36a3ca",
+                        accent2: "#55b0d0",
+                        white: "#fdfdfd",
+                        black: "#141414",
+                        gray: "#C9D3D3",
+                        danger: "ec2424e3",
+                        black2: "#383938",
+
+                    },
+                    gridTemplateColumns: {
+                        // Simple 16 column grid
+                        '16': 'repeat(16, minmax(0, 1fr))',
+
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main grid grid-cols-[15em_1fr] gap-[2em]">
+        <div class="sidebar bg-primaryColor  py-8 flex flex-col h-dvh w-vw">
+            <a href="/" class="text-white text-4xl text-center font-sans font-bold">BIMA</a>
+
+            <div class="sidebar_links mt-16">
+                <ul class="w-vw flex flex-col gap-2">
+                    <li class="w-vw  hover:bg-primary3 bg-primary2 py-5"><a
+                            class="  px-20 w-full uppercase  text-xl text-white font-medium" href="/airtime">airtime</a>
+                    </li>
+                    <li class="w-vw hover:bg-primary3  bg-primary2 py-5"><a disabled
+                            class="  px-20 w-full uppercase  text-xl text-white font-medium" href="/naivas">naivas</a>
+                    </li>
+                    <li class="w-vw  hover:bg-primary3 bg-primary2 py-5"><a disabled
+                            class=" px-20  w-full uppercase  text-xl text-white font-medium" href="/jumia">jumia</a>
+                    </li>
+                    <li class="w-vw  hover:bg-primary3 bg-primary2 py-5"><a disabled
+                            class="  px-20 w-full uppercase  text-xl text-white font-medium" href="/glovo">glovo</a>
+                    </li>
+                    <li class="w-vw  hover:bg-primary3 bg-primary2 py-5"><a disabled
+                            class="  px-20 w-full uppercase  text-xl text-white font-medium" href="/bolt">Bolt</a></li>
+
+                </ul>
+            </div>
+
+
+
+        </div>
+        <div class="content">
+            
+        </div>
+    </div>
+
+</body>
+
+</html>

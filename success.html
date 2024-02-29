@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BIMA | Success</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    sans: ['Graphik', 'sans-serif'],
+                    serif: ['Merriweather', 'serif'],
+                },
+                extend: {
+                    colors: {
+                        transparent: "transparent",
+                        primaryColor: "#497b12",
+                        primary2: "#7eb741",
+                        accentColor: "#36a3ca",
+                        accent2: "#55b0d0",
+                        white: "#fdfdfd",
+                        black: "#141414",
+                        gray: "#C9D3D3",
+                        danger: "ec2424e3",
+                        black2: "#383938",
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main h-dvh grid place-items-center">
+        <div class="success rounded-xl grid place-items-center gap-5 p-5 bg-primaryColor text-white">
+            <h1 class="text-center font-sans font-bold text-white">Success! On Redeeming Loyalties</h1>
+            <p class="font-serif text-center italic text-white text-2xl font-regular">You Have Successfully redeemed <br><span class="text-black not-italic font-bold font-sans">100 points</span>
+                for airtime worth <br><span class="text-black not-italic font-bold font-sans"> 80kshs</span>
+            </p>
+            <p class="text-center text-3xl">Thank You !</p>
+            <a href="/dashboard.html" class="py-5 px-4 text-black text-xl font-bold rounded-full bg-accent2 mt-5">Back To Dashboard</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>

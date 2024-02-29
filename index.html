@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BIMA</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    sans: ['Graphik', 'sans-serif'],
+                    serif: ['Merriweather', 'serif'],
+                },
+                extend: {
+                    colors: {
+                        transparent: "transparent",
+                        primaryColor: "#497b12",
+                        primary2: "#7eb741",
+                        accentColor: "#36a3ca",
+                        accent2: "#55b0d0",
+                        white: "#fdfdfd",
+                        black: "#141414",
+                        gray: "#C9D3D3",
+                        danger: "ec2424e3",
+                        black2: "#383938",
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="bg-primaryColor">
+        <div class="header lg:w-10/12 mx-auto py-4 flex flex-row justify-between items-center">
+            <a href="/" class="text-white font-sans italic text-2xl font-bold">BIMA</a>
+            <div class="nav">
+                <ul class="flex flex-row gap-8">
+                    <li><a class="text-white text-xl font-serif font-medium" href="#howitworks">How it Works</a></li>
+                    <li><a class="text-white text-xl font-sans font-medium bg-accent2 py-4 px-3 rounded-full"
+                            href="/redeem">Reedem Now</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <main class="lg:w-10/12 mx-auto">
+        <div class="hero mt-12 grid grid-cols-2 gap-8">
+            <div class="details mt-10">
+                <h1 class="font-bold text-3xl font-sans">Unlock a World of Reward</h1>
+                <h3 class="font-serif text-3xl font-medium my-5 italic">Turn your loyalty points into something amazing.</h3>
+                <p class="leading-8 font-sans text-xl my-3"> <strong class="text-primary2 font-bold">Earn &
+                        Redeem:</strong> Easily track your points and redeem them for exciting rewards.</p>
+                <p class="leading-8 font-sans text-xl my-3"> <strong class="text-primary2 font-bold">Endless
+                        Possibilities:</strong>Explore a diverse selection of products, experiences, and exclusive
+                    offers.</p>
+                <p class="leading-8 font-sans text-xl mb-16 my-3"><strong class="text-primary2 font-bold">Your Rewards,
+                        Your Way:</strong> Choose the rewards that suit your style and interests.</p>
+
+                <a href="/redeem"
+                    class="bg-primaryColor text-base  text-center  py-4 px-4 rounded-full font-bold font-sans text-white">Start
+                    Redeeming Today!</a>
+
+            </div>
+            <img src="./27.jpg" class="w-full object-cover -mt-10" alt="redeem points">
+
+        </div>
+        <section id="howitworks">
+            <h1 class="text-4xl font-sans text-primaryColor text-center font-bold my-6">How It Works!</h1>
+            <div class="how grid place-items-center">
+                <ol class="">
+                    <li class="leading-8 text-xl font-regular font-sans">1. Get your Policy Id from Your Insurance
+                        company</li>
+                    <li class="leading-8 text-xl font-regular font-sans">2. Redeem loyalties with us using the policy ID
+                        ,Phone Number ,Name and Email</li>
+                    <li class="leading-8 text-xl font-regular font-sans">3. Verify Your number with your OTP sent To you
+                    </li>
+                    <li class="leading-8 text-xl font-regular font-sans">4. Choose Your Voucher you want to Reedem</li>
+                    <li class="leading-8 text-xl font-regular font-sans">5. Follow requirements requested and You will
+                        receive vouchers in return.</li>
+                </ol>
+            </div>
+        </section>
+        <div class="partners">
+            <h1 class="text-primaryColor font-bold font-sans text-center my-10 text-4xl">Our Partners</h1>
+            <div class="logos grid grid-cols-4 gap-6">
+                <img class="w-3/6 object-cover" src="./arr.png" alt="">
+                <img class="w-3/6 object-cover" src="./download.jfif" alt="">
+                <img class="w-3/6 object-cover" src="./download.png" alt="">
+                <img class="w-3/6 object-cover" src="./images.png" alt="">
+                <img class="w-3/6 object-cover" src="./madison.jfif" alt="Madison Square Garden">
+                <img class="w-3/6 object-cover" src="./mayfair.jfif" alt="">
+                <img class="w-3/6 object-cover" src="./old.jfif" alt="">
+                <img class="w-3/6 object-cover"
+                    src="./jub.jfif" alt="">
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
